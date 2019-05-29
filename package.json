@@ -1,17 +1,25 @@
 {
-  "name": "",
-  "version": "",
+  "name": "FEC-Airbnb-Proxy",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec-hipcamp-but-for-houses/FEC-Group-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincen7tran/FEC-Airbnb-Proxy/issues"
+  },
+  "homepage": "https://github.com/vincen7tran/FEC-Airbnb-Proxy#readme",
   "dependencies": {
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "express": "^4.17.1",
+    "request": "^2.88.0"
   }
 }
