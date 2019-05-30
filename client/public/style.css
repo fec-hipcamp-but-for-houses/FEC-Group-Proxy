@@ -1,0 +1,10 @@
+#booking{
+  float:right;
+  padding-right: 255px;
+  top:10%;
+  position: fixed;
+  position: sticky;
+}
+.photoGallary{
+  padding-bottom: 10px;
+}
