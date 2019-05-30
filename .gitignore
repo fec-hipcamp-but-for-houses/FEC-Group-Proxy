@@ -25,3 +25,10 @@ build/
 dist/
 package-lock.json
 
+node_modules
+
+#Modules
+client/Modules
+
+#bundle
+client/public/bundle.js
